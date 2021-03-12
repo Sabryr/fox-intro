@@ -20,8 +20,8 @@
 # installation. Remember to keep the leading slash on the
 # `snippets` variable below!
 
-#snippets: "/snippets_library/Norway_Fox_slurm"
-snippets: "/snippets_library/Norway_SIGMA2_SAGA_slurm"
+#snippets: "/snippets_library/ComputeCanada_Graham_slurm"
+snippets: "/snippets_library/Norway_Fox_slurm"
 
 local:
   prompt: "[user@laptop ~]$"
@@ -35,7 +35,7 @@ remote:
   location: "University of Oslo"
   homedir: "/home"
   user: "yourUsername"
-  prompt: "[yourUsername@login-4 ~]$
+  prompt: "[yourUsername@login-4 ~]$"
   module_python3: "python3"
   bash_shebang: "#!/usr/bin/env bash"
 
