@@ -29,12 +29,12 @@ local:
 remote:
   name: "Sabry"
   login: "fox.ad.fp.educloud.no"
-  host: "fox.ad.fp.educloud.no"
+  host: "login-4.fox.ad.fp.educloud.no"
   node: "c1-1"
   location: "University of Oslo"
   homedir: "/home"
   user: "yourUsername"
-  prompt: "[yourUsername@gra-login1 ~]$"
+  prompt: "[yourUsername@login-4 ~]$
   module_python3: "python3"
   bash_shebang: "#!/usr/bin/env bash"
 
