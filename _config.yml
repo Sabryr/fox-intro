@@ -27,11 +27,11 @@ local:
   bash_shebang: "#!/usr/bin/env bash"
 
 remote:
-  name: "Graham"
-  login: "graham.computecanada.ca"
-  host: "gra-login1"
-  node: "aci-377"
-  location: "University of Waterloo"
+  name: "Sabry"
+  login: "fox.ad.fp.educloud.no"
+  host: "fox.ad.fp.educloud.no"
+  node: "c1-1"
+  location: "University of Oslo"
   homedir: "/home"
   user: "yourUsername"
   prompt: "[yourUsername@gra-login1 ~]$"
