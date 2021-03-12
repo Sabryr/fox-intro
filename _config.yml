@@ -20,18 +20,19 @@
 # installation. Remember to keep the leading slash on the
 # `snippets` variable below!
 
-snippets: "/snippets_library/ComputeCanada_Graham_slurm"
+snippets: "/snippets_library/Norway_Fox_slurm/"
+#snippets: "/snippets_library/ComputeCanada_Graham_slurm"
 
 local:
   prompt: "[user@laptop ~]$"
   bash_shebang: "#!/usr/bin/env bash"
 
 remote:
-  name: "Graham"
+  name: "Sabry"
   login: "graham.computecanada.ca"
-  host: "gra-login1"
+  host: "fox.ad.fp.educloud.no"
   node: "aci-377"
-  location: "University of Waterloo"
+  location: "University of Oslo"
   homedir: "/home"
   user: "yourUsername"
   prompt: "[yourUsername@gra-login1 ~]$"
