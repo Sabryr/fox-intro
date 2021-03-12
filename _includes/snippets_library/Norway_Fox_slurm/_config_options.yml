@@ -24,11 +24,11 @@ local:
   bash_shebang: "#!/usr/bin/env bash"
 
 remote:
-  name: "saga"
-  login: "saga.sigma2.no"
-  host: "login-1.SAGA"
+  name: "fox"
+  login: "fox.ad.fp.educloud.no"
+  host: "login-1"
   node: "aci-377"
-  location: "NTNU,Trondheim, Norway"
+  location: "Oslo, Norway"
   homedir: "/home"
   user: "$USER"
   prompt: "[yourUsername@login-1.SAGA ~]$"
