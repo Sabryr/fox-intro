@@ -17,9 +17,14 @@
 > >
 > > ```
 > > {{ site.remote.bash_shebang }}
-> > #SBATCH -t 00:00:30
-> >
-> > echo -n "This script is running on "
+> > ## The project on Fox
+> > #SBATCH --account=ec11
+> > ## Amount of memory to be allocated
+> > #SBATCH --mem=1G
+> > ## How long the allocation request is for
+> > #SBATCH --time=10:00
+> > 
+> > echo -n "This script is running on " 
 > > hostname
 > >
 > > echo "This job was launched in the following directory:"

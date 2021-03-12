@@ -121,6 +121,15 @@ is a pretty good, basic choice.
 ```
 {{ site.remote.bash_shebang }}
 
+## The project on Fox
+#SBATCH --account=ec11
+
+## Amount of memory to be allocated
+#SBATCH --mem=1G
+
+## How long the allocation request is for
+#SBATCH --time=10:00
+
 echo -n "This script is running on "
 hostname
 ```

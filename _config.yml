@@ -49,7 +49,7 @@ sched:
     testing: "testing"
   status: "squeue"
   flag:
-    user: "-u yourUsername"
+    user: "-u $USER"
     interactive: ""
     histdetail: "-l -j"
     name: "-J"
@@ -61,7 +61,7 @@ sched:
   interactive: "srun"
   info: "sinfo"
   comment: "#SBATCH"
-  hist: "sacct -u yourUsername"
+  hist: "sacct -u $USER"
 
 episode_order:
   - 11-hpc-intro
