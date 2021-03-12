@@ -29,7 +29,7 @@ local:
 
 remote:
   name: "Sabry"
-  login: "graham.computecanada.ca"
+  login: "fox.ad.fp.educloud.no"
   host: "fox.ad.fp.educloud.no"
   node: "aci-377"
   location: "University of Oslo"
