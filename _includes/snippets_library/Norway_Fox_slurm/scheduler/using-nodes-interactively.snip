@@ -3,11 +3,11 @@ this by running the `hostname` command with `srun`. (We can cancel an `srun`
 job with `Ctrl-c`.)
 
 ```
-{{ site.host_prompt }} srun hostname
+{{ site.host_prompt }} srun --account=ec11 --mem=1G  --time=00:10 hostname
 ```
 {: .language-bash}
 ```
-gra752
+c1-28
 ```
 {: .output}
 
@@ -17,7 +17,7 @@ when starting a job. To submit a job that uses 2 CPUs for instance, we could
 use the following command:
 
 ```
-{{ site.host_prompt }} srun -n 2 echo "This job will use 2 CPUs."
+{{ site.host_prompt }} srun --account=ec11 --mem=1G  --time=00:10 --ntasks=2 echo "This job will use 2 CPUs."
 ```
 {: .language-bash}
 ```
@@ -37,7 +37,7 @@ went wrong with a previous job. Fortunately, SLURM makes it easy to start an
 interactive job with `srun`:
 
 ```
-{{ site.host_prompt }} srun --pty bash
+{{ site.host_prompt }} srun --account=ec11 --mem=1G  --time=30:10  --pty bash
 ```
 {: .language-bash}
 
