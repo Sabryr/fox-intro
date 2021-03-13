@@ -235,7 +235,7 @@ name of a job. Add an option to the script:
 
 ```
 {{ site.remote.bash_shebang }}
-## The project on Fox
+## Name for the job
 #SBATCH --job-name=new_name
 #SBATCH --account=ec11
 #SBATCH --mem=1G
