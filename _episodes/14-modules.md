@@ -160,7 +160,7 @@ software is loaded.
 Let's examine the output of `module avail` more closely.
 
 ```
-{{ site.remote.prompt }} module avail gcc/
+{{ site.remote.prompt }} module avail
 ```
 {: .language-bash}
 
