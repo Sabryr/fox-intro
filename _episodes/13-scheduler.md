@@ -235,7 +235,11 @@ name of a job. Add an option to the script:
 
 ```
 {{ site.remote.bash_shebang }}
-{{ site.sched.comment }} {{ site.sched.flag.name }} new_name
+## The project on Fox
+#SBATCH --job-name=new_name
+#SBATCH --account=ec11
+#SBATCH --mem=1G
+#SBATCH --time=10:00
 
 echo -n "This script is running on "
 hostname
