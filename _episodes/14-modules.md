@@ -96,14 +96,14 @@ No Modulefiles Currently Loaded.
 ## Loading and unloading software
 
 To load a software module, use `module load`. In this example we will use
-Python 3.
+samtools.
 
-Initially, Python 3 is not loaded. We can test this by using the `which`
+Initially, samtools is not loaded. We can test this by using the `which`
 command. `which` looks for programs the same way that Bash does, so we can use
 it to tell us where a particular piece of software is stored.
 
 ```
-{{ site.remote.prompt }} which python3
+{{ site.remote.prompt }} which samtools
 ```
 {: .language-bash}
 
