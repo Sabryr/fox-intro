@@ -3,6 +3,10 @@ layout: lesson
 root: .
 ---
 
+{% include figure.html url="" max-width="50%"
+   file="/fig/fox_logo.png"
+   alt="Connect to cluster" caption="" %}
+
 {% include gh_variables.html %}
 
 This workshop is an introduction to using high-performance computing systems
