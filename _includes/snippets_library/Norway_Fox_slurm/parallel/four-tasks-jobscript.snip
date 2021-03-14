@@ -1,13 +1,14 @@
 ```
 {{ site.remote.bash_shebang }}
-{{ site.sched.comment }} {{ site.sched.flag.name }} parallel-pi
-{{ site.sched.comment }} {{ site.sched.flag.queue }} {{ site.sched.queue.testing }}
-{{ site.sched.comment }} -N 1
-{{ site.sched.comment }} -n 4
+{{ site.sched.comment }} --job-name=parallel-pi
+{{ site.sched.comment }} --account=ec11
+{{ site.sched.comment }} --time=1:00:00
+{{ site.sched.comment }} --nodes=1
+{{ site.sched.comment }} --ntasks=4
 {{ site.sched.comment }} --mem=3G
 
 # Load the computing environment we need
-module load python3
+module load Python/3.8.6-GCCcore-10.2.0
 
 # Execute the task
 mpiexec python pi.py 100000000
