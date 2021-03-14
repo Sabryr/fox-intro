@@ -28,7 +28,7 @@ local:
   bash_shebang: "#!/usr/bin/env bash"
 
 remote:
-  name: "Sabry"
+  name: "fox"
   login: "fox.ad.fp.educloud.no"
   host: "login-4.fox.ad.fp.educloud.no"
   node: "c1-1"
